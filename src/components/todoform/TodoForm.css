@@ -1,0 +1,29 @@
+input{
+    border-radius: 0;
+    border: 1px aliceblue solid;
+    background-color: rgb(22, 30, 76);
+    width: -webkit-fill-available;
+
+    
+
+}
+.button{
+    background-color: rgb(158, 109, 251);
+    color: aliceblue;
+    border: none;
+    /* width: -webkit-fill-available; */
+    
+
+    
+}
+.form{
+    display: flex;
+    gap: 1px;
+    width: 15rem;
+}
+.formDiv{
+    padding: 10px 0px 10px 0px;
+}
+::placeholder{
+    padding-left: 1rem;
+}
