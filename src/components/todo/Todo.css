@@ -1,4 +1,4 @@
-.todo{
+.todo-list{
     display: flex;
     flex-direction: column;
     gap: 1rem;

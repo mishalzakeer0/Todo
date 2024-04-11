@@ -1,8 +1,10 @@
 input{
     border-radius: 0;
-    border: 1px aliceblue solid;
+    border: 1px rgb(158, 109, 251) solid;
     background-color: rgb(22, 30, 76);
     width: -webkit-fill-available;
+    color: #f9f9f9;
+    padding-left: 1rem;
 
     
 
@@ -11,6 +13,7 @@ input{
     background-color: rgb(158, 109, 251);
     color: aliceblue;
     border: none;
+    cursor: pointer;
     /* width: -webkit-fill-available; */
     
 
@@ -20,10 +23,33 @@ input{
     display: flex;
     gap: 1px;
     width: 15rem;
+    padding-bottom: 1rem;
 }
 .formDiv{
     padding: 10px 0px 10px 0px;
 }
-::placeholder{
-    padding-left: 1rem;
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.list{
+    height: 2rem;
+    width: 15rem;
+    background-color: rgb(158, 109, 251) ;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    color: aliceblue;
+    padding-right: 20px;
+}
+.Icon{
+    color: aliceblue;
+    cursor: pointer;
 }
